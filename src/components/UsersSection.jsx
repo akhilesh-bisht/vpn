@@ -1,4 +1,3 @@
-// UsersSection.js
 import React from "react";
 import { FaUser } from "react-icons/fa6";
 import { IoLocationSharp } from "react-icons/io5";
@@ -27,7 +26,7 @@ const UsersSection = () => {
 const UserCard = ({ img, user = 90, text = "user" }) => {
   return (
     <div className="flex items-center gap-5 justify-center">
-      <div className="w-9 bg-orange-200 rounded-[50%] flex justify-center h-9 items-center">
+      <div className="  h-9 w-9 sm:bg-orange-200 sm:rounded-[50%] flex justify-center items-center">
         {img}
       </div>
       <div>
